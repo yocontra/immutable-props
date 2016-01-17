@@ -2,9 +2,6 @@
   "gitbook": "2.x.x",
   "title": "immutable-props",
   "description": "React PropTypes for Immutable.js",
-  "structure": {
-    "summary": "docs/SUMMARY.md"
-  },
   "plugins": [
     "edit-link",
     "prism",
