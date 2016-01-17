@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Introduction | immutable-props</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="React PropTypes for Immutable.js">
+        <meta name="generator" content="GitBook 2.4.3">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-edit-link/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-anchors/plugin.css">
+        
+    
+    
+
+        
+    
+    
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="0" data-basepath="." data-revision="Sun Jan 17 2016 02:30:52 GMT-0800 (PST)">
+    
+
+<div class="book-summary">
+    <div class="book-search" role="search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter active" data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="Information.html">
+            
+            <span><b>1.</b> Information</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="Install.html">
+            
+            <span><b>2.</b> Installation</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="Example.html">
+            
+            <span><b>3.</b> Examples</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="Example/ES5.html">
+            
+            <span><b>3.1.</b> ES5</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="Example/ES6.html">
+            
+            <span><b>3.2.</b> ES6</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >immutable-props</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <a id="edit-link" href="https://github.com/contra/immutable-props/tree/master/README.md" class="btn fa fa-edit pull-left">&#xA0;&#xA0;Edit This Page</a><h1 id="immutable-props-npm-version-npm-image-npm-url-downloads-downloads-image-npm-url-build-status-travis-image-travis-url"><a name="immutable-props-npm-version-npm-image-npm-url-downloads-downloads-image-npm-url-build-status-travis-image-travis-url" class="plugin-anchor" href="#immutable-props-npm-version-npm-image-npm-url-downloads-downloads-image-npm-url-build-status-travis-image-travis-url"><span class="fa fa-link"></span></a>immutable-props <a href="https://npmjs.org/package/immutable-props" target="_blank"><img src="http://img.shields.io/npm/v/immutable-props.svg" alt="NPM version"></a> <a href="https://npmjs.org/package/immutable-props" target="_blank"><img src="http://img.shields.io/npm/dm/immutable-props.svg" alt="Downloads"></a> <a href="https://travis-ci.org/contra/immutable-props" target="_blank"><img src="https://travis-ci.org/contra/immutable-props.png?branch=master" alt="Build Status"></a></h1>
+<h2 id="information"><a name="information" class="plugin-anchor" href="#information"><span class="fa fa-link"></span></a>Information</h2>
+<ul>
+<li>This provides <a href="https://facebook.github.io/react/docs/reusable-components.html" target="_blank">React PropTypes</a> for Immutable.js data.</li>
+<li>This is the equivalent of <code>React.PropTypes.instanceOf(Immutable.Type)</code> so you can do all the normal stuff<ul>
+<li><code>.isRequired</code>, nest in <code>.oneOfType</code>, etc.</li>
+</ul>
+</li>
+<li>React and Immutable are peer dependencies, so this will not install those for you.<ul>
+<li>This module works with any version of React and Immutable you have installed! &#x1F37E;</li>
+</ul>
+</li>
+</ul>
+<h2 id="install"><a name="install" class="plugin-anchor" href="#install"><span class="fa fa-link"></span></a>Install</h2>
+<pre><code>npm install immutable-props --save
+</code></pre><h2 id="available-types"><a name="available-types" class="plugin-anchor" href="#available-types"><span class="fa fa-link"></span></a>Available Types</h2>
+<ul>
+<li>Iterable</li>
+<li>Seq</li>
+<li>Collection</li>
+<li>Map</li>
+<li>OrderedMap</li>
+<li>List</li>
+<li>Stack</li>
+<li>Set</li>
+<li>OrderedSet</li>
+<li>Record</li>
+<li>Range</li>
+<li>Repeat</li>
+</ul>
+<h2 id="example"><a name="example" class="plugin-anchor" href="#example"><span class="fa fa-link"></span></a>Example</h2>
+<h3 id="es5"><a name="es5" class="plugin-anchor" href="#es5"><span class="fa fa-link"></span></a>ES5</h3>
+<pre><code class="lang-js"><span class="token keyword">var</span> IPropTypes <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&apos;immutable-props&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> UserPage <span class="token operator">=</span> React<span class="token punctuation">.</span><span class="token function">createClass</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  propTypes<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    user<span class="token punctuation">:</span> IPropTypes<span class="token punctuation">.</span>Map<span class="token punctuation">,</span>
+    friends<span class="token punctuation">:</span> IPropTypes<span class="token punctuation">.</span>List
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  render<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// ...</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="es6"><a name="es6" class="plugin-anchor" href="#es6"><span class="fa fa-link"></span></a>ES6</h3>
+<pre><code class="lang-js"><span class="token keyword">import</span> IPropTypes from <span class="token string">&apos;immutable-props&apos;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">UserPage</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token keyword">static</span> propTypes <span class="token operator">=</span> <span class="token punctuation">{</span>
+    user<span class="token punctuation">:</span> IPropTypes<span class="token punctuation">.</span>Map<span class="token punctuation">,</span>
+    friends<span class="token punctuation">:</span> IPropTypes<span class="token punctuation">.</span>List
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  render <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// ...</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="es6-with-destructuring"><a name="es6-with-destructuring" class="plugin-anchor" href="#es6-with-destructuring"><span class="fa fa-link"></span></a>ES6 (with destructuring)</h3>
+<pre><code class="lang-js"><span class="token keyword">import</span> <span class="token punctuation">{</span>Map<span class="token punctuation">,</span> List<span class="token punctuation">}</span> from <span class="token string">&apos;immutable-props&apos;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">UserPage</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token keyword">static</span> propTypes <span class="token operator">=</span> <span class="token punctuation">{</span>
+    user<span class="token punctuation">:</span> Map<span class="token punctuation">,</span>
+    friends<span class="token punctuation">:</span> List
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  render <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// ...</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-collapsible-menu/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"edit-link":{"base":"https://github.com/contra/immutable-props/tree/master","label":"Edit This Page"},"github":{"url":"https://github.com/contra/immutable-props/"}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
