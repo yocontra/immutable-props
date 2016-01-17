@@ -1,0 +1,25 @@
+{
+  "gitbook": "2.x.x",
+  "title": "immutable-props",
+  "description": "React PropTypes for Immutable.js",
+  "structure": {
+    "summary": "docs/SUMMARY.md"
+  },
+  "plugins": [
+    "edit-link",
+    "prism",
+    "-highlight",
+    "github",
+    "anchors",
+    "collapsible-menu"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/contra/immutable-props/tree/master",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/contra/immutable-props/"
+    }
+  }
+}
