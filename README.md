@@ -6,7 +6,7 @@
 - This is the equivalent of `React.PropTypes.instanceOf(Immutable.Type)` so you can do all the normal stuff
   - `.isRequired`, nest in `.oneOfType`, etc.
 - React and Immutable are peer dependencies, so this will not install those for you.
-  - This module works with any version of React and Immutable you have installed! 🍾
+  - This module works with any version of React and Immutable you have installed! :beer:
 
 ## Install
 
