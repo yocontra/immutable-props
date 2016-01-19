@@ -67,7 +67,7 @@ class UserPage extends React.Component {
 ### ES6 (with destructuring)
 
 ```js
-import {Map, List} from 'immutable-props'
+import { Map, List } from 'immutable-props'
 
 class UserPage extends React.Component {
   static propTypes = {
