@@ -43,8 +43,8 @@
     "docs:publish": "cd _book && git init && git commit --allow-empty -m 'update book' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push git@github.com:contra/immutable-props gh-pages --force"
   },
   "peerDependencies": {
-    "immutable": "^3.7.6",
-    "react": ">=0.12.0"
+    "immutable": "*",
+    "react": "*"
   },
   "devDependencies": {
     "babel": "^6.3.26",
