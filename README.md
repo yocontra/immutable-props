@@ -28,6 +28,7 @@ npm install immutable-props --save
 - Record
 - Range
 - Repeat
+- Cursor
 
 ## Example
 

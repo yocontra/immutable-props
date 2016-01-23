@@ -1,7 +1,8 @@
 import {PropTypes} from 'react'
 import Immutable from 'immutable'
+import Cursor from 'immutable/contrib/cursor'
 
-var types = [
+const types = [
   'Iterable',
   'Seq',
   'Collection',
@@ -16,7 +17,11 @@ var types = [
   'Repeat'
 ]
 
-export default types.reduce((p, i) => {
+var props = types.reduce((p, i) => {
   p[i] = PropTypes.instanceOf(Immutable[i])
   return p
 }, {})
+
+props.Cursor = PropTypes.instanceOf(Cursor)
+
+export default props

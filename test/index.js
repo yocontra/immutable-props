@@ -15,7 +15,8 @@ var types = [
   'OrderedSet',
   'Record',
   'Range',
-  'Repeat'
+  'Repeat',
+  'Cursor'
 ]
 
 describe('immutable-props', () => {
