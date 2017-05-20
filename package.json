@@ -44,7 +44,7 @@
   },
   "peerDependencies": {
     "immutable": "*",
-    "react": "*"
+    "prop-types": "*"
   },
   "devDependencies": {
     "babel": "^6.3.26",

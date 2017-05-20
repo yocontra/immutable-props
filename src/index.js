@@ -1,4 +1,4 @@
-import {PropTypes} from 'react'
+import PropTypes from 'prop-types'
 import Immutable from 'immutable'
 import Cursor from 'immutable/contrib/cursor'
 
